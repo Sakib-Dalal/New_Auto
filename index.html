@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Font Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="contianer">
+        <nav class="navbar bg-success border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <h1 class="title">
+                        <img src="../static/logo.jpeg" alt="Logo" width="80" height="80" class="d-inline-block align-middle image-border title" style="margin-left: 10px; border-radius: 50%;">
+                        शिरीन इलेक्ट्रिकल्स</h1>
+                    </a>
+            </div>
+        </nav>
+
+
+        <!--Collapse button-->
+        <nav class="navbar bg-body-success" style="margin-left: 10px; margin-right: 10px;">
+            <form class="container-fluid justify-content-center">
+                    <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="width: 100%; font-size: 18px; font-weight: bolder;">
+                    अधिक
+                    </a> 
+
+            </form>
+        </nav>
+
+
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <a href="./templates/contact.html" class="btn btn-outline-success" style="margin-bottom: 10px;">संपर्क</a>
+              <a href="./templates/address.html" class="btn btn-outline-success" style="margin-bottom: 10px;">पत्ता</a>
+            </div>
+        </div>
+
+      <!--Youtube Video -->
+      <div class="card mb-3 border-success mx-auto video_card_out">
+        <div class="card-body text-center" style="display: flex; justify-content: center;">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="video_card_in" src="https://www.youtube.com/embed/3RpVX_Z7GkU?si=5YjM5_0UBVxQbW5_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+
+         <!--Auto sliding image-->
+         <div class="card mb-3 border-success slide_image_out">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner" style="border-radius: 20px;">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <img src="../static/AUTOREMOVERDBACKGROUND/All.png" class="d-block slide_image_in" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../static/AUTOREMOVERDBACKGROUND/Mobile.png" class="d-block slide_image_in" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../static/AUTOREMOVERDBACKGROUND/SDDry.png" class="d-block slide_image_in" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../static/AUTOREMOVERDBACKGROUND/Dol dry removebg.png" class="d-block slide_image_in" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="../static/AUTOREMOVERDBACKGROUND/WithouDry.png" class="d-block slide_image_in" alt="...">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+
+        <!--Card 1-->
+        <div class="card mb-3 border-success" style="margin: 20px; margin-top: 30px; border-width: 3px; border-radius: 25px; padding: 10px; background-color: rgb(243, 255, 243); font-family: Noto Serif Devanagari;">
+            <img src="../static/AUTOREMOVERDBACKGROUND/Mobile.png" class="card-img-top" alt="Mobile Auto", style="border-radius: 25px;">
+            <div class="card-body">
+              <hr class="border border-success border-1">
+              <h3 class="card-title text-success" style="text-align: center; font-size: 28px;">शिरीन 2G/4G जी एस एम ऑटो स्विच</h3>
+              <hr class="border border-success border-1">
+              <p class="card-text">
+                <ul style="font-size: 18px; text-align: start;">
+                  <li>संपुर्ण भारतातुन पाण्याचा पंप चालु बंद करता येतो.</li>
+                  <li>३फेज ३एचपी ते ३००एचपी साठी एकच संच.</li>
+                  <li>मोटर चालु केल्यानंतर संपुर्ण माहीती मराठीत देइल किंवा मोटर चालु न झाल्यास का नाही चालु झाली हेही सांगेल.</li>
+                  <li>
+                    खालील माहीती मराठीत बोलेल
+                    <ul>
+                      <li>पाण्याची मोटर बंद आहे</li>
+                      <li>पाण्याची मोटर चालु आहे</li>
+                      <li>स्टार्टर ट्रीप झाल्यामुळे मोटर बंद आहे</li>
+                      <li>पाणी संपल्यामुळे मोटर बंद आहे</li>
+                      <li>फेज गेल्यामुळे मोटर बंद आहे(कोणताही फेज गेल्यास)</li>
+                      <li>लाइट गेल्यामुळे मोटर बंद आहे</li>
+                    </ul>
+                  </li>
+                  <li>पाणी सपल्यास बंद करतो व परत पाणी आल्यास ड्राय रीसेट करता येते.</li>
+                  <li>कोणताही फ्युज गेल्यास 0.1सेकंदात मोटर बंद करतो,बैक emf मारण्याची सुविधा आहे.</li>
+                  <li>पाणी संपल्यास 8सेकंदात मोटर बंद करतो.</li>
+                  <li>व्होल्टेज दोन फेजमध्ये 250volt च्या खाली आल्यास मोटर ओव्हर हीट न करता बंद करतो.</li>
+                  <li>अनबैलन्स व्होल्टेज 40volt कींवा डीम व्होल्टेज झाल्यास मोटर बंद करतो.</li>
+                  <li>लाइट नसतानाही चालु बंदची सुचना देण्याची सुविधा.</li>
+                  <li>30तासाची बैटरी बैकअप ,बैटरी चार्जिग ,बैटरी फूल झाल्यानंतर कट ऑफ सुविधा .बैटरी पैनसिल Li-on 18650 टाइप.</li>
+                  <li>चालु बंद न करता विशिष्ट कोड नंबर दाबुन माहीती घेता येते.</li>
+                  <li>
+                    तीन स्वतंत्र ऑपरेटिंग  सुविधा खालील प्रमाने-
+                    <ul>
+                      <li>मैन्युअल-हताने स्टार्टरच्या बटणावर.</li>
+                      <li>ऑटो-रेग्युलर ड्राय रन ऑटो प्रमाणे.</li>
+                      <li>मोबाइल-संपुर्ण मोबाईल वर.</li>
+                    </ul>
+                    या वरील तीनही सुविधेमुळे संचमध्ये बिघाड झाल्यास तुमची मोटर बंद राहणार नाही.
+                  </li>
+                  <li>एक वर्ष वॉरंटी,विक्री पश्चात सर्व्हिसची हमी.</li>
+                  <li style="color: red;">Note- पाणी जाउन,विज पडुन,शॉर्ट सर्कीट होउन जळाल्यास नो वॉरंटी.</li>
+                </ul>
+              </p>
+              <p class="card-text text-success" style="font-weight: bolder; text-align: center;">किंमत:₹/-</p>
+            </div>
+        </div>
+
+        <!--Card 2-->
+        <div class="card mb-3 border-success" style="margin: 20px; margin-top: 30px; border-width: 3px; border-radius: 25px; padding: 10px; background-color: rgb(243, 255, 243); font-family: Noto Serif Devanagari;">
+          <img src="../static/AUTOREMOVERDBACKGROUND/Dol dry removebg.png" class="card-img-top" alt="Mobile Auto", style="border-radius: 25px;">
+          <div class="card-body">
+            <hr class="border border-success border-1">
+            <h3 class="card-title text-success" style="text-align: center; font-size: 28px;">डी. ओ. एल.ड्राय ऑटो स्विच</h3>
+            <hr class="border border-success border-1">
+            <p class="card-text">
+              <ul style="font-size: 18px; text-align: start;">
+                <li>पाणी संपल्यानंतर मोटरला बंद करतो.</li>
+                <li>विज अल्यानंतर 30 सेकंदात मोटर चालु करतो.</li>
+                <li>तीन फेज पैकी एक फेज गेल्यास मोटर बंद करून मोटर जळण्यापासुन वाचवितो.</li>
+                <li>डीम लाईट झाल्यास मोटर जळण्यापासुन वाचवितो.</li>
+                <li>ऑटो/मैन्युअल वरती चालविण्याची सुविधा.</li>
+                <li>3 एच.पी.,5 एच.पी.,7.5 एच.पी.साठी.</li>
+              </ul>
+            </p>
+            <p class="card-text text-success" style="font-weight: bolder; text-align: center;">किंमत:₹/-</p>
+          </div>
+      </div>
+
+      <!--Card 3-->
+      <div class="card mb-3 border-success" style="margin: 20px; margin-top: 30px; border-width: 3px; border-radius: 25px; padding: 10px; background-color: rgb(243, 255, 243); font-family: Noto Serif Devanagari;">
+        <img src="../static/AUTOREMOVERDBACKGROUND/SDDry.png" class="card-img-top" alt="Mobile Auto", style="border-radius: 25px;">
+        <div class="card-body">
+          <hr class="border border-success border-1">
+          <h3 class="card-title text-success" style="text-align: center; font-size: 28px;">एस.डी. ड्राय ऑटो स्विच</h3>
+          <hr class="border border-success border-1">
+          <p class="card-text">
+            <ul style="font-size: 18px; text-align: start;">
+              <li>विज आलेनंतर 40 सेकंदात मोटर चालु करतो.</li>
+              <li>तीन पैकी एक फेज गेल्यास मेटर बंद करतो वमोटर जळण्यापासुन वाचवतो.</li>
+              <li>डीम लाईट आल्यास मोटर जळण्यापासुन वाचवितो.</li>
+              <li>मोटर पाणी न ओढल्यास मोटर बंद करून सक्शन पाईप व मोटर जळण्यापासुन वाचवीतो.</li>
+              <li>ऑटो/मैन्युअल वर चालविण्याची सुविधा.</li>
+              <li>3 एच.पी.ते 300 एच.पी.</li>
+            </ul>
+          </p>
+          <p class="card-text text-success" style="font-weight: bolder; text-align: center;">किंमत:₹/-</p>
+        </div>
+      </div>
+
+      <!--Card 4-->
+      <div class="card mb-3 border-success" style="margin: 20px; margin-top: 30px; border-width: 3px; border-radius: 25px; padding: 10px; background-color: rgb(243, 255, 243); font-family: Noto Serif Devanagari;">
+        <img src="../static/AUTOREMOVERDBACKGROUND/WithouDry.png" class="card-img-top" alt="Mobile Auto", style="border-radius: 25px;">
+        <div class="card-body">
+          <hr class="border border-success border-1">
+          <h3 class="card-title text-success" style="text-align: center; font-size: 28px;">विदाउट ड्राय ऑटो स्विच</h3>
+          <hr class="border border-success border-1">
+          <p class="card-text">
+            <ul style="font-size: 18px; text-align: start;">
+              <li>विज अल्यानंतर 30 सेकंदात मोटर चालु करतो.</li>
+              <li>तीन फेज पैकी एक फेज गेल्यास मोटर बंद करून मोटर जळण्यापासुन वाचवितो.</li>
+              <li>डीम लाईट झाल्यास मोटर जळण्यापासुन वाचवितो.</li>
+              <li>ऑटो/मैन्युअल वरती चालविण्याची सुविधा.</li>
+              <li>3 एच.पी.,5 एच.पी,7.5 एच.पी.साठी.</li>
+            </ul>
+          </p>
+          <p class="card-text text-success" style="font-weight: bolder; text-align: center;">किंमत:₹/-</p>
+        </div>
+      </div>
+       
+
+
+        
+
+    </div>
+
+
+    <!--footer-->
+    <div class="text-center mb-5 text-success" style="padding-top: 50px;">
+      <img src="../static/logo.jpeg" height="25" />
+      <p> शिरीन इलेक्ट्रिकल्स © 2024 </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

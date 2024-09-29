@@ -1,0 +1,78 @@
+.title
+{
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+    font-family: Noto Serif Devanagari; 
+    font-size: 35px; 
+    text-align: center;
+}
+
+.image-border
+{
+    border-style: solid;
+}
+
+.video_card_out
+{
+    margin: 20px; 
+    margin-top: 30px; 
+    border-width: 3px; 
+    border-radius: 25px; 
+    padding: 10px; 
+    background-color: rgb(243, 255, 243); 
+    font-family: Noto Serif Devanagari; 
+    max-width: 350px; 
+    padding-top: 20px;
+}
+
+.video_card_in
+{
+    height: 290px;
+    width: 290px;
+}
+
+.slide_image_out
+{
+    margin: 20px; 
+    margin-top: 30px; 
+    border-width: 3px; 
+    border-radius: 25px; 
+    padding: 10px;
+    background-color: rgb(243, 255, 243); 
+    font-family: Noto Serif Devanagari;
+    align-content: center;
+}
+
+.slide_image_in
+{
+    width: 100%;
+    height: 400px;
+}
+
+@media (min-width: 1201px)
+{
+    .title{
+        font-size: 60px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .video_card_out
+    {
+        max-width: 90%;
+        height: 700px;
+    }
+
+    .video_card_in
+    {
+        height: 100%;
+        width: 1100px;
+    }
+
+    .slide_image_in
+    {
+        height: 50%;
+    }
+
+}
+
